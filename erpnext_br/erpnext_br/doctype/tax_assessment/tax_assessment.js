@@ -6,7 +6,6 @@ frappe.ui.form.on('Tax Assessment', {
 		frm.add_custom_button(__('Payment'), () => {
 			console.log('call frappe');
 			frappe.call({
-				// "method": "erpnext_br.erpnext_br_localization.doctype.tax_assessment.tax_assessment.calculate",
 				"method": "calculate",
 				"doc": frm.doc,
 				callback: function(r) {
