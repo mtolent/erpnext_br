@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{accounting_period} / {field:company}",
+ "creation": "2022-02-18 15:41:47.461719",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "accounting_period",
+  "posting_date",
+  "journal_entry",
+  "amended_from",
+  "column_break_4",
+  "company",
+  "tax_expense_account",
+  "tax_payable_account"
+ ],
+ "fields": [
+  {
+   "fieldname": "accounting_period",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Accounting Period",
+   "options": "Accounting Period",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Tax Assessment",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "journal_entry",
+   "fieldtype": "Link",
+   "label": "Journal Entry",
+   "options": "Journal Entry",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax_expense_account",
+   "fieldtype": "Link",
+   "label": "Tax Expense Account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax_payable_account",
+   "fieldtype": "Link",
+   "label": "Tax Payable Account",
+   "options": "Account",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-02-21 19:49:52.259462",
+ "modified_by": "Administrator",
+ "module": "ERPNext BR Localization",
+ "name": "Tax Assessment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
