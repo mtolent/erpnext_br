@@ -9,7 +9,7 @@ from erpnext_br import __version__ as version
 setup(
 	name="erpnext_br",
 	version=version,
-	description="ERPNext BR Localization",
+	description="ERPNext BR",
 	author="Marcos Tolentino",
 	author_email="marcos.tolentino@gmail.com",
 	packages=find_packages(),

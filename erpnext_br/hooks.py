@@ -3,7 +3,7 @@ from . import __version__ as app_version
 app_name = "erpnext_br"
 app_title = "ERPNext BR"
 app_publisher = "Marcos Tolentino"
-app_description = "ERPNext BR Localization"
+app_description = "ERPNext BR"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "marcos.tolentino@gmail.com"

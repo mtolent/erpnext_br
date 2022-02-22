@@ -1,1 +1,1 @@
-ERPNext BR Localization
+ERPNext BR

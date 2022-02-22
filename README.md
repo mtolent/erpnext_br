@@ -1,6 +1,6 @@
-## ERPNext BR Localization
+## ERPNext BR
 
-ERPNext BR Localization
+ERPNext BR
 
 #### License
 
